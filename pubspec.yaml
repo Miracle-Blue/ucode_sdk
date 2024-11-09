@@ -1,0 +1,29 @@
+name: ucode_sdk
+description: A starting point for Dart libraries or applications.
+version: 0.0.1
+
+homepage: https://github.com/Miracle-Blue/ucode_sdk
+
+repository: https://github.com/Miracle-Blue/ucode_sdk
+
+issue_tracker: https://github.com/Miracle-Blue/ucode_sdk/issues
+
+topics:
+  - ucode
+
+environment:
+  sdk: ^3.5.3
+
+# Add regular dependencies here.
+dependencies:
+  async: ^2.12.0
+  collection: ^1.19.1
+
+  dio: ^5.7.0
+  dio_smart_retry: ^7.0.1
+
+  meta: ^1.16.0
+
+dev_dependencies:
+  lints: ^4.0.0
+  test: ^1.24.0
